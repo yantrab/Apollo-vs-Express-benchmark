@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "apollo": "set NODE_ENV=production && node apollo",
-    "express": "set NODE_ENV=production && ts-node express"
+    "apollo": "set NODE_ENV=production && ts-node apollo",
+    "express": "set NODE_ENV=production && ts-node express",
+    "graphql": "set NODE_ENV=production && ts-node graphQL",
+    "analyze": "node ./node_modules/node-code-analyzer/bin/code-analyzer"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +18,5 @@
     "graphql": "^14.0.2",
     "ts-node": "^7.0.1",
     "typescript": "^3.1.1"
-  },
-  "devDependencies": {}
+  }
 }
