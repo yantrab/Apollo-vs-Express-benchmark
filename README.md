@@ -14,7 +14,7 @@ node bench
 
 ## bench express
 ```bash
-npm run express
+npm run express OR npm run graphql
 node bench
 ```
 
